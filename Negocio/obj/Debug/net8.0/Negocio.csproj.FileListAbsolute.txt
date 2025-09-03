@@ -284,3 +284,4 @@ C:\Users\Sebastian\Desktop\Negocio\BackEnd\Negocio\Negocio\obj\Debug\net8.0\refi
 C:\Users\Sebastian\Desktop\Negocio\BackEnd\Negocio\Negocio\obj\Debug\net8.0\Negocio.pdb
 C:\Users\Sebastian\Desktop\Negocio\BackEnd\Negocio\Negocio\obj\Debug\net8.0\Negocio.genruntimeconfig.cache
 C:\Users\Sebastian\Desktop\Negocio\BackEnd\Negocio\Negocio\obj\Debug\net8.0\ref\Negocio.dll
+C:\Users\Sebastian\Desktop\Negocio\BackEnd\Negocio\Negocio\obj\Debug\net8.0\Negocio.sourcelink.json

@@ -32,6 +32,8 @@ builder.Services.AddScoped<IResumenMensualRepository, ResumenMensualRepository>(
 builder.Services.AddScoped<IResumenCigarrillosRepository, ResumenCigarrillosRepository>();
 builder.Services.AddScoped<IEmpleadoRepository, EmpleadoRepository>();
 builder.Services.AddScoped<IPagosEmpleadoRepository, PagosEmpleadoRepository>();
+builder.Services.AddScoped<IProveedorRepository, ProveedorRepository>();
+builder.Services.AddScoped<ICompraRepository, CompraRepository>();
 #endregion
 
 // Registro de servicios
@@ -43,6 +45,8 @@ builder.Services.AddScoped<IResumenMensualService, ResumenMensualService>();
 builder.Services.AddScoped<IResumenCigarrillosService, ResumenCigarrillosService>();
 builder.Services.AddScoped<IEmpleadoService, EmpleadoService>();
 builder.Services.AddScoped<IPagosEmpleadoService, PagosEmpleadoService>();
+builder.Services.AddScoped<IProveedorService, ProveedorService>();
+builder.Services.AddScoped<ICompraService, CompraService>();
 #endregion
 
 builder.Services.AddControllers();
