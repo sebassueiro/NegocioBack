@@ -34,6 +34,8 @@ builder.Services.AddScoped<IEmpleadoRepository, EmpleadoRepository>();
 builder.Services.AddScoped<IPagosEmpleadoRepository, PagosEmpleadoRepository>();
 builder.Services.AddScoped<IProveedorRepository, ProveedorRepository>();
 builder.Services.AddScoped<ICompraRepository, CompraRepository>();
+builder.Services.AddScoped<IClienteRepository, ClienteRepository>();
+builder.Services.AddScoped<IPagosClienteRepository, PagosClienteRepository>();
 #endregion
 
 // Registro de servicios
@@ -47,6 +49,8 @@ builder.Services.AddScoped<IEmpleadoService, EmpleadoService>();
 builder.Services.AddScoped<IPagosEmpleadoService, PagosEmpleadoService>();
 builder.Services.AddScoped<IProveedorService, ProveedorService>();
 builder.Services.AddScoped<ICompraService, CompraService>();
+builder.Services.AddScoped<IClienteService, ClienteService>();
+builder.Services.AddScoped<IPagosClienteService, PagosClienteService>();
 #endregion
 
 builder.Services.AddControllers();
