@@ -17,7 +17,7 @@ namespace Negocio.Controllers
         [HttpGet("{anio}/{mes}")]
         public async Task<IActionResult> GetResumenMensual(int anio, int mes)
         {
-            var resumen = await _service.GetArqueoMensualAsync(anio, mes);
+            var resumen = await _service.GetResumenMensualAsync(anio, mes);
             return Ok(resumen);
         }
     }

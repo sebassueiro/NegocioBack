@@ -7,6 +7,6 @@
         public DateTime Fecha { get; set; }
         public decimal Total { get; set; }
 
-        public string? NombreProveedor { get; set; }
+        public string NombreEmpresa { get; set; } = string.Empty;
     }
 }

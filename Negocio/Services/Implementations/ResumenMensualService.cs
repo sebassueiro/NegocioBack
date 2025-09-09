@@ -12,12 +12,9 @@ namespace Negocio.Services.Implementations
         {
             _repo = repo;
         }
-        public Task<ResumenMensualDTO> GetArqueoMensualAsync(int? anio = null, int? mes = null)
+        public Task<ResumenMensualDTO> GetResumenMensualAsync(int anio, int mes)
         {
-            var now = DateTime.Now;
-            var a = anio ?? now.Year;
-            var m = mes ?? now.Month;
-            return _repo.GenerarYObtenerArqueoMensualAsync(a, m);
+            return _repo.ObtenerResumenMensualAsync(anio, mes);
         }
 
     }

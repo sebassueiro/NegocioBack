@@ -141,9 +141,15 @@ public partial class PuntoVentaContext : DbContext
                 .HasColumnType("datetime")
                 .HasColumnName("fecha");
             entity.Property(e => e.IdCliente).HasColumnName("id_cliente");
-            entity.Property(e => e.Monto)
+            entity.Property(e => e.Pagado)
                 .HasPrecision(10, 2)
-                .HasColumnName("monto");
+                .HasColumnName("pagado");
+            entity.Property(e => e.Deuda)
+                .HasPrecision(10, 2)
+                .HasColumnName("deuda");
+            entity.Property(e => e.Saldo)
+                .HasPrecision(10, 2)
+                .HasColumnName("saldo");
 
             entity.HasOne(d => d.IdClienteNavigation).WithMany(p => p.PagosClientes)
                 .HasForeignKey(d => d.IdCliente)

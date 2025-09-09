@@ -15,7 +15,7 @@ namespace Negocio.Repositories.Implementations
             _connectionString = configuration.GetConnectionString("conexion");
         }
 
-        public async Task<ResumenMensualDTO> GenerarYObtenerArqueoMensualAsync(int anio, int mes)
+        public async Task<ResumenMensualDTO> ObtenerResumenMensualAsync(int anio, int mes)
         {
             await using var conn = new MySqlConnection(_connectionString);
             await conn.OpenAsync();
@@ -34,6 +34,8 @@ namespace Negocio.Repositories.Implementations
                     Mes = mes,
                     Ingresos = 0,
                     Egresos = 0,
+                    EgresosCompras = 0,
+                    EgresosSueldos = 0,
                     GananciaNeta = 0
                 };
 
@@ -43,6 +45,8 @@ namespace Negocio.Repositories.Implementations
                 Mes = mes,
                 Ingresos = reader.GetDecimal("ingresos"),
                 Egresos = reader.GetDecimal("egresos"),
+                EgresosCompras = reader.GetDecimal("egresos_compras"),
+                EgresosSueldos = reader.GetDecimal("egresos_sueldos"),
                 GananciaNeta = reader.GetDecimal("ganancia_neta")
             };
         }

@@ -4,6 +4,6 @@ namespace Negocio.Services.Interfaces
 {
     public interface IResumenMensualService
     {
-        Task<ResumenMensualDTO> GetArqueoMensualAsync(int? anio = null, int? mes = null);
+        Task<ResumenMensualDTO> GetResumenMensualAsync(int anio, int mes);
     }
 }

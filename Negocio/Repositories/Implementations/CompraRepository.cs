@@ -25,7 +25,8 @@ namespace Negocio.Repositories.Implementations
                     IdProveedor = c.IdProveedor,
                     Fecha = c.Fecha,
                     Total = c.Total,
-                    NombreProveedor = c.IdProveedorNavigation.Nombre
+                    NombreEmpresa = c.IdProveedorNavigation.Descripcion ?? string.Empty
+
                 })
                 .ToListAsync();
         }
@@ -44,7 +45,7 @@ namespace Negocio.Repositories.Implementations
                 IdProveedor = compra.IdProveedor,
                 Fecha = compra.Fecha,
                 Total = compra.Total,
-                NombreProveedor = compra.IdProveedorNavigation.Nombre
+                NombreEmpresa = compra.IdProveedorNavigation.Descripcion ?? string.Empty
             };
         }
 
