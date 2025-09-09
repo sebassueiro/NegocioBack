@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sebastian\\Desktop\\Negocio\\BackEnd\\Negocio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3CFFE4B9-46FE-4D75-8A94-A19EC2A1E77E}|Negocio\\Negocio.csproj|c:\\users\\sebastian\\desktop\\negocio\\backend\\negocio\\negocio\\services\\interfaces\\ipagosclienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CFFE4B9-46FE-4D75-8A94-A19EC2A1E77E}|Negocio\\Negocio.csproj|solutionrelative:negocio\\services\\interfaces\\ipagosclienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CFFE4B9-46FE-4D75-8A94-A19EC2A1E77E}|Negocio\\Negocio.csproj|c:\\users\\sebastian\\desktop\\negocio\\backend\\negocio\\negocio\\controllers\\pagosclientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CFFE4B9-46FE-4D75-8A94-A19EC2A1E77E}|Negocio\\Negocio.csproj|solutionrelative:negocio\\controllers\\pagosclientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CFFE4B9-46FE-4D75-8A94-A19EC2A1E77E}|Negocio\\Negocio.csproj|c:\\users\\sebastian\\desktop\\negocio\\backend\\negocio\\negocio\\services\\implementations\\pagosclienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CFFE4B9-46FE-4D75-8A94-A19EC2A1E77E}|Negocio\\Negocio.csproj|solutionrelative:negocio\\services\\implementations\\pagosclienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CFFE4B9-46FE-4D75-8A94-A19EC2A1E77E}|Negocio\\Negocio.csproj|c:\\users\\sebastian\\desktop\\negocio\\backend\\negocio\\negocio\\repositories\\implementations\\pagosclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CFFE4B9-46FE-4D75-8A94-A19EC2A1E77E}|Negocio\\Negocio.csproj|solutionrelative:negocio\\repositories\\implementations\\pagosclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CFFE4B9-46FE-4D75-8A94-A19EC2A1E77E}|Negocio\\Negocio.csproj|c:\\users\\sebastian\\desktop\\negocio\\backend\\negocio\\negocio\\repositories\\interfaces\\ipagosclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CFFE4B9-46FE-4D75-8A94-A19EC2A1E77E}|Negocio\\Negocio.csproj|solutionrelative:negocio\\repositories\\interfaces\\ipagosclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IPagosClienteService.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\Negocio\\BackEnd\\Negocio\\Negocio\\Services\\Interfaces\\IPagosClienteService.cs",
+              "RelativeDocumentMoniker": "Negocio\\Services\\Interfaces\\IPagosClienteService.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\Negocio\\BackEnd\\Negocio\\Negocio\\Services\\Interfaces\\IPagosClienteService.cs",
+              "RelativeToolTip": "Negocio\\Services\\Interfaces\\IPagosClienteService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T00:25:08.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PagosClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\Negocio\\BackEnd\\Negocio\\Negocio\\Controllers\\PagosClienteController.cs",
+              "RelativeDocumentMoniker": "Negocio\\Controllers\\PagosClienteController.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\Negocio\\BackEnd\\Negocio\\Negocio\\Controllers\\PagosClienteController.cs",
+              "RelativeToolTip": "Negocio\\Controllers\\PagosClienteController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAA5wCoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T00:21:55.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PagosClienteService.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\Negocio\\BackEnd\\Negocio\\Negocio\\Services\\Implementations\\PagosClienteService.cs",
+              "RelativeDocumentMoniker": "Negocio\\Services\\Implementations\\PagosClienteService.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\Negocio\\BackEnd\\Negocio\\Negocio\\Services\\Implementations\\PagosClienteService.cs",
+              "RelativeToolTip": "Negocio\\Services\\Implementations\\PagosClienteService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T00:21:29.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PagosClienteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\Negocio\\BackEnd\\Negocio\\Negocio\\Repositories\\Implementations\\PagosClienteRepository.cs",
+              "RelativeDocumentMoniker": "Negocio\\Repositories\\Implementations\\PagosClienteRepository.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\Negocio\\BackEnd\\Negocio\\Negocio\\Repositories\\Implementations\\PagosClienteRepository.cs",
+              "RelativeToolTip": "Negocio\\Repositories\\Implementations\\PagosClienteRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBQAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T00:20:42.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IPagosClienteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\Negocio\\BackEnd\\Negocio\\Negocio\\Repositories\\Interfaces\\IPagosClienteRepository.cs",
+              "RelativeDocumentMoniker": "Negocio\\Repositories\\Interfaces\\IPagosClienteRepository.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\Negocio\\BackEnd\\Negocio\\Negocio\\Repositories\\Interfaces\\IPagosClienteRepository.cs",
+              "RelativeToolTip": "Negocio\\Repositories\\Interfaces\\IPagosClienteRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T00:20:26.319Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
