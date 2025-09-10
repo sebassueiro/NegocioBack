@@ -28,5 +28,35 @@ namespace Negocio.Controllers
                 return BadRequest(new { error = ex.Message });
             }
         }
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetVentaById(int id)
+        {
+            try
+            {
+                var venta = await _ventaService.ObtenerVentaPorIdAsync(id);
+                if (venta == null)
+                    return NotFound(new { message = "Venta no encontrada" });
+
+                return Ok(venta);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { error = ex.Message });
+            }
+        }
+        [HttpGet("hoy")]
+        public async Task<IActionResult> GetVentasDelDia()
+        {
+            try
+            {
+                var ventas = await _ventaService.ObtenerVentasDelDiaAsync();
+                return Ok(ventas);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { error = ex.Message });
+            }
+        }
+
     }
 }

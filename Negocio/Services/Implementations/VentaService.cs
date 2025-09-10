@@ -39,6 +39,46 @@ namespace Negocio.Services.Implementations
             };
 
             return await _ventaRepository.CrearVentaAsync(venta);
+            }
+            public async Task<VentaResponseDTO?> ObtenerVentaPorIdAsync(int idVenta)
+            {
+                var venta = await _ventaRepository.ObtenerVentaPorIdAsync(idVenta);
+                if (venta == null) return null;
+
+                return new VentaResponseDTO
+                {
+                    IdVenta = venta.IdVenta,
+                    Fecha = venta.Fecha,
+                    Total = venta.Total,
+                    EsFiado = venta.EsFiado,
+                    Detalle = venta.DetalleVenta.Select(d => new DetalleVentaResponseDTO
+                    {
+                        CodigoBarra = d.CodigoBarra,
+                        Nombre = d.CodigoBarraNavigation?.Nombre ?? string.Empty,
+                        Cantidad = d.Cantidad,
+                        PrecioUnitario = d.PrecioUnitario
+                    }).ToList()
+                };
+            }
+        public async Task<List<VentaResponseDTO>> ObtenerVentasDelDiaAsync()
+        {
+            var ventas = await _ventaRepository.ObtenerVentasDelDiaAsync();
+
+            return ventas.Select(venta => new VentaResponseDTO
+            {
+                IdVenta = venta.IdVenta,
+                Fecha = venta.Fecha,
+                Total = venta.Total,
+                EsFiado = venta.EsFiado,
+                Detalle = venta.DetalleVenta.Select(d => new DetalleVentaResponseDTO
+                {
+                    CodigoBarra = d.CodigoBarra,
+                    Nombre = d.CodigoBarraNavigation?.Nombre ?? string.Empty,
+                    Cantidad = d.Cantidad,
+                    PrecioUnitario = d.PrecioUnitario
+                }).ToList()
+            }).ToList();
         }
+
     }
 }
